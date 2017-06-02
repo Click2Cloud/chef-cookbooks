@@ -1,0 +1,585 @@
+﻿<!doctype html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Docker container & Kubernetes based Visual Studio Extension for OpenShift</title>
+<meta name="keywords" content="Docker Container, Kubernetes, Microsoft Visual Studio Extension, Visual Studio Tool, Visual Studio Tool for OpenShift, Microsoft Dev/Ops Tool,  Windows applications in OpenShift, OpenShift.Net, Windows in OpenShift, True DevOps, Deploy containers, RED HAT ISV and ADVANCE PARTNERr">
+<meta name="description" content="Click2Cloud's Docker container & Kubernetes based Visual Studio Extension enables True DevOps in a Cross-Platform. Our Visual Studio Extension allows developers to Build, Manage and Deploy containerized .Net and lot more other applications straight from IDE to OpenShift 3 cloud platform. ">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="css-v2/normalize.css">
+<link rel="stylesheet" href="css-v2/base.css">
+<link rel="stylesheet" href="css-v2/custom.css">
+<script src="js-v2/vendor/modernizr-2.8.3.min.js"></script>
+<link rel="shortcut icon" href="http://www.click2cloud.net/favicon.ico" type="image/icon">
+<link rel="icon" href="http://www.click2cloud.net/favicon.ico" type="image/icon">
+<!-- Remove line 16 to close head -->
+<!-- Social Profile validation Pinterest, Microsoft, Google-->
+<meta name="p:domain_verify" content="b4036b2f12894febd85476f4cbf58d2e"/>
+<meta name="msvalidate.01" content="745A2B20AA9F859DDEBF6BD26D39B6A5" />
+</head>
+<body>
+<!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+<div class="c_page-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 mobile-hide"> <span class="c_mailbox"><a href="mailto:contact@click2cloud.net">contact@click2cloud.net</a></span> <span class="c_phone">+1-425-748-9666</span> </div>
+      <div class="col-md-3 right"> <a class="c_icons c_linkedin" href="https://www.linkedin.com/company/click2cloud-inc-" target="_blank">&nbsp;</a> <a class="c_icons c_facebook" href="https://www.facebook.com/Click2Cloud-Inc-1671001019803485/?fref=nf" target="_blank">&nbsp;</a> <a class="c_icons c_twitter" href="https://twitter.com/click2cloudinc" target="_blank">&nbsp;</a> <a class="c_icons c_youtube" href="https://www.youtube.com/channel/UCjVgly_5QMuNZQh2I2FkHQQ" target="_blank">&nbsp;</a> </div>
+    </div>
+  </div>
+</div>
+<div class="c_page-openshift">
+  <div class="container">
+    <div class="row c_top-nav">
+      <div class="col-md-3"> <a href="index.html"><img src="img-v2/click2cloud.png" alt="Click2Cloud.Net"></a> <a href="index.html" class="c_nav_home">Click<span>2</span>Cloud</a> <a class="toggleMenu" href="#"><img src="img-v2/toggle-nav.png" alt=""></a> </div>
+      <div class="col-md-9">
+        <div class="c_nav">
+          <ul class="nav">
+            <li><a data-scroll data-options='{ "easing": "linear" }' href="#sectionBenefits">Benefits</a></li>
+            <li><a data-scroll data-options='{ "easing": "linear" }' href="#sectionLearnMore">Learn More</a></li>
+            <li><a href="http://register.click2cloud.net/">Try Now</a></li>
+            <li><a href="products.html" class="dropdown">Products</a></li>  
+              <li><a href="services.html" class="dropdown">Services</a></li>  
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="http://blog.click2cloud.net/" target="_blank">Blogs</a></li>
+            <li><a data-scroll data-options='{ "easing": "linear" }' href="#sectionContact">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="c_openshift-slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="c_container">
+                <!--- <div class="carousel-caption">
+                                        <a class="link" href="http://register.click2cloud.net/">Try Now</a>
+                                        <h1><span>Expand Your <strong>REDHAT </strong>Openshift environment</span> <br /><span>with <strong>microsoft Visual Studio IDE</strong></span></h1>
+                                    </div> -->
+                <div class="carousel-caption"> <a class="link" href="http://register.click2cloud.net/">Try Now - Dev-Ops Plugin</a>
+                  <h1><span>Create Docker container Based .Net Apps  From <br />
+                    </span></br>
+                    <span>Microsoft Visual Studio 2015 IDE  To Linux Cloud</span></h1>
+                </div>
+                <a href="http://register.click2cloud.net/"><img src="img-v2/slide-01.png" alt="" class="img-responsive"></a> </div>
+            </div>
+            <div class="item">
+              <div class="c_container">
+                <div class="carousel-caption"> <a class="link" href="http://register.click2cloud.net/">O365 Services</a>
+                  <h1><span><strong>Executed more than </strong>70+ <strong>Enterprise projects</strong></span> <br />
+                    <span><strong>Using SharePoint, O365</strong> and <strong>.NET</strong></span></h1>
+                </div>
+                <a href="http://click2cloud.net/services.html"><img src="img-v2/slide-02.png" alt="" class="img-responsive"></a> </div>
+            </div>
+
+              <div class="item">
+                  <div class="c_container">
+                      <div class="carousel-caption">
+                          <a class="link" href="http://register.click2cloud.net/">Try Now</a>
+                          <h1>
+                              <span><strong>Gateway to</strong>.Net Apps <strong>deployment</strong></span> <br />
+                              <span><strong>from Visual Studio IDE</strong> to <strong>OpenShift 3</strong></span>
+                          </h1>
+                      </div>
+                      <a href="http://register.click2cloud.net/"><img src="img-v2/slide-02.png" alt="" class="img-responsive"></a>
+                  </div>
+              </div>
+
+            <div class="item">
+              <div class="c_container">
+                <div class="carousel-caption1"> <a class="link" href="faqs.html">Faq</a>
+                  <div style="clear:both"></div>
+                  <h1><span>Straight from <strong>Visual Studio to </strong>Openshift</span> <br />
+                    <span> <strong>WHAT!!</strong></span></h1>
+                </div>
+                <a href="faqs.html"><img src="img-v2/slide-03.png" alt="" class="img-responsive"></a> </div>
+            </div>
+            <!-- replace item -->
+            <div class="item">
+              <div class="c_container">
+                <div class="carousel-caption"> <a href="#" class="c_videoCall link" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/0F6uM7ysMZM?list=PLWgCcDWQfFluLf2w8JTKkSgDXtRpQKwQA" data-videoTitle="Our Visual Studio extension for Openshift in Action">WATCH NOW</a>
+                  <h1><span>Our <strong> "Visual Studio extension for Linux Cloud"</strong></span> <br />
+                    <span> <strong>in Action </strong></span></h1>
+                </div>
+                <a href="#" class="c_videoCall" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/0F6uM7ysMZM?list=PLWgCcDWQfFluLf2w8JTKkSgDXtRpQKwQA" data-videoTitle="Our Visual Studio extension for Openshift in Action"><img src="img-v2/slide-04.png" alt="" class="img-responsive"></a> </div>
+            </div>
+          </div>
+          <!-- carousel-inner End-->
+        </div>
+        <!-- /.carousel -->
+      </div>
+      <!-- col end -->
+    </div>
+    <!-- row end -->
+  </div>
+</div>
+<!-- Designer
+    <div id="popup" class="modal-box">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close js-modal-close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+                <p style="font-size: 14px; font-weight: bold;">OpenShift Tool for Visual Studio- Fuctionalities</p>
+                <div>
+                    <iframe id="popup-youtube-player" width="100%" height="460" src="" frameborder="0" allowfullscreen="true" allowscriptaccess="always"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+<div class="container" style="margin-top:2em;margin-bottom:1em;">
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <div class="c_heads animated"> <a data-scroll data-options='{ "easing": "linear" }' href="#sectionBenefits"> <img src="img-v2/icon-benefits.png" alt="">
+        <h2>Benefits</h2>
+        <p>Understand how Docker &#38; Kubernetes Empowered  solutions can help your Enterprise and Development Process</p>
+        </a> </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="c_heads animated"> <a data-scroll data-options='{ "easing": "linear" }' href="#sectionLearnMore"> <img src="img-v2/icon-learn-more.png" alt="">
+        <h2>Learn More</h2>
+        <p>Get more information on OpenShift.Net and Visual Studio Extension </p>
+        </a> </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="c_heads animated"> <a href="http://register.click2cloud.net/"> <img src="img-v2/icon-try-now.png" alt="">
+        <h2>Try Now</h2>
+        <p>Try out our OpenShift Tool for Visual Studio Beta Edition, it's for everyone</p>
+        </a> </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="c_heads animated"> <a href="faqs.html"> <img src="img-v2/icon-faqs.png" alt="">
+        <h2>FAQs</h2>
+        <p>Looking for answers? Most questions can be answered instantly in our FAQs section</p>
+        </a> </div>
+    </div>
+  </div>
+</div>
+<div style="background:#DB242F;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-7">
+          <h2 class="c_materpunch" data-animate="rollIn"><span></span> <b>Bridging Red Hat and Microsoft platforms</b> with our <b>Visual Studio Extension</b> for <b>OpenShift 3. </b> <span><br>
+            Try it Now </br>
+            </span></h2>
+        </div>
+        <div class="col-md-5" style="padding:10px 0;">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner vdo">
+              <div class="item active">
+                <iframe class="vdo" src="https://www.youtube.com/embed/0F6uM7ysMZM" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="item">
+                <iframe class="vdo" src="https://www.youtube.com/embed/w2hShR1pT3Q" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="item">
+                <iframe class="vdo" src="https://www.youtube.com/embed/n88iqcAsbck" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="item">
+                <iframe class="vdo" src="https://www.youtube.com/embed/PIaSLuLLNPw" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <!--<div class="item">
+      <img src="http://placehold.it/1200x315" alt="...">
+      <div class="carousel-caption">
+      	<h3>Caption Text</h3>
+      </div>-->
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> </div>
+        <!-- Carousel -->
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container" id="sectionBenefits" style="overflow:hidden;">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="center text-red">Benefits</h1>
+      <p class="center"> Our Visual Studio Extension allows developers to Build, Manage and Deploy containerized .Net and lot more other applications straight from IDE to OpenShift 3 cloud platform on a cloud of your choice. Bring on the benefits of Docker and Kubernetes offered by OpenShift. The power of "AND" eliminates the question to choose  Microsoft "OR" Red Hat. Our DevOps solution gives you the choice of a truly heterogeneous environment where Red Hat and Microsoft applications work harmoniously in OpenShift. </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="c_feature-1 right">
+        <h3>Do you need a single development experience across OpenShift and Visual Studio?</h3>
+        <p>If you have investments in both OpenShift and Visual Studio, you are dealing with multiple IDEs and challenges integrating between them. You want to maintain investments in OpenShift and Microsoft but developing in a cross platform cloud leads to increased complexity.</p>
+        <p>We offer you a seamless DevOps experience for OpenShift and Microsoft with a single IDE across both.  Get increased developer productivity and velocity by using our Visual Studio Extension.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="c_feature-2">
+        <h3>Do you need Docker container and Kubernetes empowered .Net applications?</h3>
+        <p>Do you have a complex environment of Windows applications you must maintain and you want to migrate from large applications to small and agile containers? Use our custom templates containing Docker image of .Net with other services e.g. MySQL and MongoDB, to create containerized applications of your choice.</p>
+        <p>Push your existing application source code to repository and convert it to a new containerized app in OpenShift and get the flexibility, lowered costs and simplified operations you need.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row c_margin-top">
+    <div class="col-md-12 center"><a href="faqs.html" class="c_faqs"><img src="img-v2/button-faqs.jpg" alt=""></a></div>
+  </div>
+</div>
+<div class="gray-lt c_margin-top" id="sectionLearnMore">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-12">
+        <h1 class="center text-red">Learn  More</h1>
+      </div>
+    </div>
+    <div class="row  c_featured" style="margin-top:0;">
+      <div class="col-md-4">
+        <h3 style="margin-bottom:1.5em;">About ASP.Net (S2I) Images and Templates <br />
+          <b>Key Features</b></h3>
+        <p>Our ASP.Net 4.5 and 5.0 source to images and custom templates enables you to create containerized .Net applications</p>
+        <p>IT benefits from lower costs, increased agility and increased utilization in a simplified environment.</p>
+        <ul>
+          <li>Create, manage and run .Net applications on OpenShift by using these templates</li>
+          <li>Integrate with Mongo DB, MySQL and other services </li>
+          <li>Use this on your Enterprise datacenter (Private cloud), public or hybrid cloud or OpenShift Online</li>
+        </ul>
+        <p><br />
+          <a data-scroll data-options='{ "easing": "linear" }' href="#sectionContact" class="c_ask"><img src="img-v2/button-ask.jpg" alt="" width="260"></a></p>
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <p style="font-weight:bold;font-size:14px;"></p>
+                <div>
+                  <iframe width="100%" height="350" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="popModal" tabindex="-1" role="dialog" aria-labelledby="imgModal" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <p style="font-weight:bold;font-size:14px; background-color:#efefef;margin-top:0;padding:10px 5px;"></p>
+                <div> <img src="" class="img-responsive"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <h3 style="margin-bottom:1.5em;">Visual Studio Extension <br />
+          <b>By Click2Cloud</b></h3>
+        <p>Our Visual Studio Extension "OpenShift Tool for Visual Studio"  provide developers with a seamless DevOps experience across environments increasing developer productivity, agility and velocity.</p>
+        <p>With the Visual Studio Extension developers can develop and deploy .Net applications in both your Windows and OpenShift environments.</p>
+        <p>With this Extension you can also deploy applications based on several other technologies (e.g. Java, Ruby, Python, PHP, Node.js, Perl) on both your Windows and OpenShift environment.</p>
+        <ul>
+          <li>Choose the IDE they are familiar with making the developer's life easier.</li>
+          <li>Controls and templates to help you get the most out of Visual Studio.</li>
+          <li>Plugins are integrated with source repositories for streamlined deployment and versioning. </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3 style="margin-bottom:1.5em;">Videos and Downloads <br />
+          <b>Explore More</b></h3>
+        <h4>Featured Video</h4>
+        <ul>
+          <li><a href="#" class="c_videoCall" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/0F6uM7ysMZM" data-videoTitle="Click2Cloud OpenShift Extension for Visual Studio #1: Install & Register">Click2Cloud OpenShift Extension for Visual Studio #1: Install & Register</a></li>
+          <li><a href="#" class="c_videoCall" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/w2hShR1pT3Q" data-videoTitle="Click2Cloud OpenShift Extension for Visual Studio #2: Create New Application">Click2Cloud OpenShift Extension for Visual Studio #2: Create New Application</a></li>
+          <li><a href="#" class="c_videoCall" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/n88iqcAsbck" data-videoTitle="Click2Cloud OpenShift Extension for Visual Studio #3: Modify Existing Application">Click2Cloud OpenShift Extension for Visual Studio #3: Modify Existing Application</a></li>
+          <li><a href="#" class="c_videoCall" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/PIaSLuLLNPw" data-videoTitle="Click2Cloud OpenShift Extension for Visual Studio #4: OpenShift Explorer">Click2Cloud OpenShift Extension for Visual Studio #4: OpenShift Explorer</a></li>
+        </ul>
+        <h4>Documents</h4>
+        <ul>
+          <li><a href="https://github.com/Click2Cloud/openshift2" target="_blank">Click2Cloud OpenShift 2.X .NET Kit</a> <br />
+          </li>
+          <li><a href="https://github.com/click2cloud/dotnetonopenshift3" target="_blank">Enable .NET Capabilities on OpenShift 3</a> <br />
+          </li>
+          <li><a href="downloads/OSEv2_Deployment_Guide_V1.0.pdf" target="_blank">Click2Cloud OpenShift 2.X with .NET - Deployment Guide</a> <br />
+            File Type: PDF / Size: 1.5 MB approx</li>
+          <li><a href="downloads/Click2Cloud_OpenShift3.X_Origin_VisualStudio2015_Tool_UserGuide_V1.0.pdf" target="_blank">Click2Cloud Visual Studio 2015 Extension for Redhat OpenShift 3.X  Origin - User Guide</a> <br />
+            File Type: PDF / Size: 1.8 MB approx</li>
+          <li><a href="downloads/Click2Cloud_OpenShift3.X_Enterprise_VisualStudio2015_Tool_UserGuide_V1.0.pdf" target="_blank">Click2Cloud Visual Studio 2015 Extension for Redhat OpenShift 3.X  Enterprises - User Guide</a> <br />
+            File Type: PDF / Size: 1.8 MB approx</li>
+          <li><a href="downloads/Click2Cloud_OpenShift2.X_VisualStudio_Tool_UserGuide_V1.0.pdf" target="_blank">Click2Cloud Visual Studio 2012+ Extension for Redhat OpenShift 2.X  - User Guide</a> <br />
+            File Type: PDF / Size: 1.8 MB approx</li>
+          <li><a href="downloads/Click2Cloud_OpenShift2.X_Visual Studio_Tool_Guide_to_Deploy_Sample_Applications_V1.0.pdf" target="_blank">Click2Cloud Visual Studio 2012+ Extension for Redhat OpenShift 2.X  - Create Sample Application</a> <br />
+            File Type: PDF / Size: 1.2 MB approx</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row c_margin-top">
+      <div class="col-md-12 center"></div>
+    </div>
+  </div>
+</div>
+<div class="container" style="margin-top:2em;margin-bottom:4em;overflow:hidden;" id="sectionFAQs">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="center text-red" style="padding-bottom:20px;">Frequently Asked Questions (<span style="color:#222;"> FAQ </span>)</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-5">
+      <div class="c_faqTop5">
+        <h3><span>Top 5</span> Frequently Asked Questions</h3>
+        <ul>
+          <li>I haven't received the verification email from Click2Cloud.</li>
+          <li>Why am I getting 503 errors (Service Temporarily Unavailable)?</li>
+          <li>What is OpenShift Tool for Visual Studio?</li>
+          <li>What about ongoing development? What are the upcoming features of OpenShift Tool?</li>
+          <li>How to watch OpenShift Tool for Visual Studio demo videos?</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-7 clearfix">
+      <div class="c_faqTop5-wrapper">
+        <div class="c_faqTop5-answers animated">
+          <h3>I haven't received the verification email from Click2Cloud.</h3>
+          <p>Here's what we recommend:</p>
+          <p>First, check to see if the verification email is in your SPAM folder. If you can't find it in your SPAM folder either, Please contact us at <a href="mailto:support@click2cloud.net">support@click2cloud.net</a></p>
+          </p>
+          <p><a href="faqs.html" class="c_morefaqs"><img src="img-v2/button-morefaqs.jpg" alt=""></a></p>
+        </div>
+        <div class="c_faqTop5-answers animated">
+          <h3>Why am I getting 503 errors (Service Temporarily Unavailable)?</h3>
+          <p>This 503 error usually happens when your browser requested a hostname that do not matches any route. Your containers get a dynamic address and won't be resolvable though DNS. This is ok as users never reach containers directly, but use either services (only for other containers) or routes (external users).</p>
+          <p>You can check log files to see what the root cause might be.</p>
+          <p><a href="faqs.html" class="c_morefaqs"><img src="img-v2/button-morefaqs.jpg" alt=""></a></p>
+        </div>
+        <div class="c_faqTop5-answers animated">
+          <h3>What is OpenShift Tool for Visual Studio?</h3>
+          <p><strong>OpenShift Tool for Visual Studio</strong> is Visual Studio extension that allow you to integrate new OpenShift 3 capabilities within Visual Studio. It provides integrated developer experience for <strong>Visual Studio Developers</strong> to support the application lifecycle and seamless deployment in <strong>Visual Studio Integrated Development Environment (IDE)</strong>. </p>
+          <p>
+            <!--a href="#" class="c_popCall" data-toggle="modal" data-target="#popModal" data-theImg="img-v2/roadmap.jpg" data-imgTitle="Road Map"><img src="img-v2/roadmap.jpg" alt="" class="img-responsive"></a-->
+            <a href="faqs.html" class="c_morefaqs"><img src="img-v2/button-morefaqs.jpg" alt=""></a> </p>
+        </div>
+        <div class="c_faqTop5-answers animated">
+          <h3>What about ongoing development? What are the upcoming features of OpenShift Tool?</h3>
+          <p>Currently, Click2Cloud Team is working on enabling Docker tooling as well as CDK Server Adapter within Visual Studio</p>
+          <p>We will update you in coming days with new features like</p>
+          <ul>
+            <li>Docker Tooling</li>
+            <li>OpenShift Server Adapter</li>
+            <li>OpenShift CDK Adapter</li>
+            <li>User management</li>
+            <li>TFS Integration</li>
+          </ul>
+          <p><a href="faqs.html" class="c_morefaqs"><img src="img-v2/button-morefaqs.jpg" alt=""></a></p>
+        </div>
+        <div class="c_faqTop5-answers animated">
+          <h3>How to watch OpenShift Tool for Visual Studio demo videos?</h3>
+          <p>You can watch demo videos from <a href="https://www.youtube.com/channel/UCjVgly_5QMuNZQh2I2FkHQQ" target="_blank">here</a></p>
+          <p><a href="faqs.html" class="c_morefaqs"><img src="img-v2/button-morefaqs.jpg" alt=""></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="gray-lt c_margin-top" style="margin-top:2em;margin-bottom:0em;">
+        <div class="row">
+
+            <h1 class="center text-red">Technology Partners</h1>
+
+            <div class="col-md-2 col-sm-8" style="margin-top:2em;margin-bottom:3em;margin-left:4em;margin-right:2em;" >    
+                    <img src="img-v2/partners.png"  alt="Click2Cloud Technology Partners; Red Hat, Microsoft, Docker, Kubernetes and K2">    
+            </div>
+           
+
+        </div>
+    </div>
+
+
+<div class="gray" style="padding-bottom:60px;overflow:hidden;" id="sectionContact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="c_feature-1">
+          <h1 class="center text-white text-upper">About Us</h1>
+          <p class="text-white left"> Click2Cloud Inc. was founded by Vandana and Prashant Mishra in 2015.  Click2Cloud Inc. is an S-Corporation incorporated in the State of Washington.
+            At its inception its business objectives were to provide innovative cloud products and services.
+            Since 2015, Click2Cloud Inc. employs approximately 15-20 employees located in two key geographies:
+          <ul>
+            <li class="text-white left"> Headquarters located in Bellevue, WA </li>
+            <li class="text-white left"> Development Center in Nagpur, India </li>
+          </ul>
+          </p>
+          <p class="text-white left"> Click2Cloud Inc. has developed not only human intellectual capital, process understanding and optimization, but they have also developed software
+            IP that they can incorporate into their solutions to offer richer software workflow, deeper business insight and telemetry but at a much faster pace and
+            lower cost than the typical software solutions provider and consultancy. </p>
+          <h4 class="text-white left">Vision & Mission</h4>
+          <p class="text-white left"> Click2Cloud Inc.’s Vision is simple: <b>"Ideas at work”...what this means to us?</b> </p>
+          <p class="text-white left"> It means recognizing and taking advantage of the latest in disruptive and enabling technologies as a set of "capabilities" (people, best practices, proven processes together 
+            with infrastructure, platform and application services) to
+            develop solutions that enables businesses to produce higher productivity, reduce costs, improve time to market and enhance customer
+            experience while driving brand loyalty and value. </p>
+          <p class="text-white left"> Click2Cloud Inc.’s Mission is <b>to provide end-to-end IT solutions and services that build lasting relationships, impeccable reliability and real results.</b> </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12"> </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="c_feature-2">
+          <h3 class="center text-white text-upper">Click2Cloud's Contact Details</h3>
+          <p class="text-white center"> <b>Phone </b> +1-425-748-9666<br />
+            <b>Email </b> <a href="mailto:contact@click2cloud.net">contact@click2cloud.net</a><br />
+            <b>Web </b><a href="http://click2cloud.net">http://click2cloud.net</a> </p>
+          <p class="text-white center">Bellevue | Nagpur </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p id="c_gotoTop"><a href="#top"><img src="img-v2/totop.png" alt=""></a></p>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js-v2/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js-v2/jquery.viewportchecker.js"></script>
+<script src="js-v2/vendor/smooth-scroll.min.js"></script>
+<link rel="stylesheet" href="css-v2/animate.css">
+<script src="js-v2/plugins.js"></script>
+<script src="js-v2/main.js"></script>
+<!-- Google Analytics -->
+<script>
+        $(document).ready(function () {
+            $('#myCarousel').carousel({
+                interval: 7000
+            })
+
+            smoothScroll.init({
+                speed: 1000,
+                easing: 'easeInOutCubic',
+                offset: 0,
+                updateURL: true,
+                callbackBefore: function (toggle, anchor) { },
+                callbackAfter: function (toggle, anchor) { }
+            });
+
+
+            $(".c_heads")
+            .mouseenter(function () {
+                $(this).addClass('bounce');
+            })
+            .mouseleave(function () {
+                $(this).removeClass('bounce');
+            });
+
+            $(".c_trynow")
+            .mouseenter(function () {
+                $(this).addClass('pulse');
+            })
+            .mouseleave(function () {
+                $(this).removeClass('pulse');
+            });
+
+
+
+            jQuery('.c_materpunch').addClass("hideme").viewportChecker({
+                classToAdd: 'visible animated pulse',
+                offset: 100
+            });
+
+            jQuery('.c_feature-1').addClass("hideme").viewportChecker({
+                classToAdd: 'visible animated fadeInLeft',
+                offset: 100
+            });
+
+            jQuery('.c_feature-2').addClass("hideme").viewportChecker({
+                classToAdd: 'visible animated fadeInRight',
+                offset: 100
+            });
+
+
+            $('.c_faqTop5-wrapper > div:eq(0)').show().addClass("hideme").viewportChecker({
+                classToAdd: 'visible animated bounceInRight',
+                offset: 100
+            });
+
+            $(".c_faqTop5 ul li").click(function () {
+
+                $('html, body').animate({
+                    scrollTop: $('.c_faqTop5-answers').offset().top
+                }, 1000);
+
+                var c_node = $(this).index();
+                $(".c_faqTop5 ul li").removeClass('active');
+                $(this).addClass('active');
+
+                $('.c_faqTop5-answers').hide();
+                $('.c_faqTop5-wrapper > div:eq(' + c_node + ')').show();
+                $('.c_faqTop5-wrapper > div:eq(' + c_node + ')').removeClass('visible bounceInRight');
+                jQuery('.c_faqTop5-wrapper > div:eq(' + c_node + ')').addClass("hideme").viewportChecker({
+                    classToAdd: 'visible animated bounceInRight',
+                    offset: 100
+                });
+            });
+
+            $(".c_videoCall").click(function () {
+                var theModal = $(this).data("target"),
+                    videoSRC = $(this).attr("data-theVideo"),
+                    videoSRCauto = videoSRC + "?autoplay=1";
+
+                var videoTitle = $(this).attr("data-videoTitle");
+
+                $(theModal + ' p').html(videoTitle);
+                $(theModal + ' iframe').attr('src', videoSRCauto);
+                $(theModal + ' button.close').click(function () {
+                    $(theModal + ' iframe').attr('src', videoSRC);
+                });
+                $('.modal').click(function () {
+                    $(theModal + ' iframe').attr('src', videoSRC);
+                });
+            });
+
+
+            $(".c_popCall").click(function () {
+                var theModal = $(this).data("target"),
+                    imgSRC = $(this).attr("data-theImg");
+
+                $(theModal + ' p').html($(this).attr("data-imgTitle"));
+                $(theModal + ' img').attr('src', imgSRC);
+                $('.modal').click(function () {
+                    $(theModal + ' img').attr('src', imgSRC);
+                });
+            });
+
+        });
+    </script>
+<script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-64285889-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
